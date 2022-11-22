@@ -189,11 +189,11 @@ hr {
 } 
 
 .pic {
-  display:flex;
+  display:grid;
   justify-items:center;
   height: 210px;
   width: 251px;
-  margin-left: -85px;
+  margin-left: -1px;
   padding: 0px;
   object-fit: cover;
 }
@@ -201,13 +201,13 @@ hr {
 .name {
   display:flex;
   font-family:'Abril Fatface', cursive;
-  font-size:larger;
-  font-weight:300;
-  float: center;
+  font-size: 20px;
+  font-weight:300px;
   background-color: black;
   color:white;
-  margin: 8px;
-  width:150px;
+  margin: 10px;
+  margin-left: -15px;
+  width:200px;
 }
 
 /*
