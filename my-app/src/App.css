@@ -190,17 +190,17 @@ hr {
 
 .pic {
   display:flex;
-  align-items: center;
-  justify-items: center;
+  justify-items:center;
   height: 210px;
   width: 251px;
+  margin-left: -85px;
   padding: 0px;
   object-fit: cover;
 }
 
 .name {
   display:flex;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'Abril Fatface', cursive;
   font-size:larger;
   font-weight:300;
   float: center;
@@ -210,14 +210,16 @@ hr {
   width:150px;
 }
 
+/*
 .B-url {
   display:flex;
   background-color:papayawhip;
   width:80px;
-  text-align: center;
-  align-items: center;
-  margin-left:5px;
+  text-align: left;
+  align-items: left;
 }
+
+
 
 .i-button{
   display:flex;
@@ -228,6 +230,7 @@ hr {
   align-items: right;
   justify-content: flex-start;
 }
+*/
 
 .menu {
   Background-color:black;
@@ -255,3 +258,4 @@ hr {
 
 
 }
+
